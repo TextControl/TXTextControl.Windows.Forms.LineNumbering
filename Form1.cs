@@ -32,8 +32,5 @@ namespace tx_pdf_lines {
 			textControl1.AddLegalLineNumbering(LegalExtensions.StyleName, 200, true);
 		}
 
-		private void toolStripButton1_Click(object sender, EventArgs e) {
-			textControl1.Save("legal.tx", StreamType.InternalUnicodeFormat);
-		}
 	}
 }
